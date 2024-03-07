@@ -1,0 +1,40 @@
+#drum-machine {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #display{
+    background-color: #ccc;
+    
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  .lineone, .linetwo, .linethree {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .drum-pad {
+    background-color: #ccc;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .drum-pad:hover {
+    background-color: #aaa;
+  }
+  
+  .clip {
+    display: none;
+  }
